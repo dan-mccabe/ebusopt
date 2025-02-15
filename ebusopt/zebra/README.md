@@ -1,0 +1,2 @@
+# Zero-Emission Bus Range & Recharging Assessment (ZEBRA)
+This directory contains the source code of the ZEBRA app. For instructions on how to launch the app, see the README.md file of the beb_chargers root directory.

@@ -1,0 +1,2 @@
+`gtfs_beb`
+This directory hosts the `data.py` module which contains functions and classes for manipulating and analyzing static GTFS data, especially as it pertains to battery-electric buses. The key feature is the `GTFSData` class, though other functions in `data.py` are also used throughout this package.

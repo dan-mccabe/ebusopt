@@ -1,0 +1,7 @@
+secrets.toml
+/.env
+.DS_Store
+add_ga_tag.py
+build/*
+*.pyc
+ebusopt.egg-info/*

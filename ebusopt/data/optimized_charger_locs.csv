@@ -1,0 +1,7 @@
+,name,label_name,lat,lon,max_chargers,kw,fixed_cost,charger_cost,n_chargers
+0,Burien Transit Center,Burien TC,47.4693256,-122.3403857,4,450.0,200000,698447,1
+1,Kent Des Moines Link Station,Kent Link,47.389472,-122.294063,4,450.0,200000,698447,1
+3,South Renton P&R,S Renton P&R,47.4718414,-122.2147887,4,450.0,200000,698447,1
+4,Federal Way Transit Center,Federal Way TC,47.3179917,-122.3056636,4,450.0,200000,698447,1
+5,Kent Transit Center 1,Kent TC,47.3836401,-122.2346441,4,450.0,200000,698447,1
+6,Kent Transit Center 2,Kent TC,47.3836401,-122.2346441,4,450.0,200000,698447,1
