@@ -1,5 +1,5 @@
 # opt
-This directory contains optimization code for the `beb_chargers` project. The modules are organized as follows:
+This directory contains optimization code for the `ebusopt` project. The modules are organized as follows:
 
 - `benders_charge_scheduling.py`
   - This module contains functions that implement Combinatorial Benders decomposition, used to solve the charging scheduling problem.

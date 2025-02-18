@@ -257,5 +257,5 @@ with t3:
 
 
 with t4:
-    st.markdown(read_markdown('beb_chargers/zebra/text/charging_needs_help.md'))
+    st.markdown(read_markdown('ebusopt/zebra/text/charging_needs_help.md'))
 

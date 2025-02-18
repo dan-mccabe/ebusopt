@@ -78,7 +78,7 @@ if 'show_date_input' not in st.session_state:
     st.session_state.show_date_input = False
 
 with t2:
-    st.markdown(read_markdown('beb_chargers/zebra/text/gtfs_data_help.md'))
+    st.markdown(read_markdown('ebusopt/zebra/text/gtfs_data_help.md'))
 
 with t1:
     choice_col, _ = st.columns([0.4, 0.6])

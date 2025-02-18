@@ -3,7 +3,7 @@ This repository contains code used for Dan McCabe's dissertation research on bat
 
 To run most of the optimization methods, your machine must have a valid Gurobi Optimizer license installed. For full functionality, you also need your own API keys for services like Openrouteservice, Google Maps, and Mapbox, which are all free up to certain usage limits.
 
-It is expected that with the current state of the repo, you may run into issues with file structures and missing data. Please submit a GitHub issue for anything you can't easily resolve. I'm happy to do more repo cleanup and find better way to share larger GTFS files, but only as long as there's a need.
+It is expected that with the current state of the repo, you may run into issues with file structures and missing data. Please submit a GitHub issue for anything you can't easily resolve. I'm happy to do more repo cleanup and find better way sto share larger GTFS files, but only as long as there's a need.
 
 This repository is open-source under the BSD 3-Clause license.
 
@@ -54,12 +54,12 @@ If you've found this code useful for your work, please cite the relevant publica
   * `scripts`
     * Scripts that run source code from the other directories, e.g. for journal paper case studies.
   * `vis`
-    * Visualization code
+    * Visualization functions used for various purposes, e.g., plotting BEB trips.
   * `zebra`
-    * Source code of ZEBRA app.
+    * Source code of ZEBRA app. The version of ZEBRA in this repository is in development status with some additional features beyond what's included in the production app, and all features might not work as expected.
 
 ## Setup
-Some configuration is needed prior to running the code in this repository. In particular, some of the code relies on public APIs that require a key for usage. Because these APIs have limited usage allowed before they start incurring costs, users of this repo need to provide their own API keys. These API keys should be stored in a `.env` file in the root directory of the repo (i.e., `beb_chargers/.env`). We use the `python-dotenv` package to read these in as environment variables where needed.
+Some configuration is needed prior to running the code in this repository. In particular, some of the code relies on public APIs that require a key for usage. Because these APIs have limited usage allowed before they start incurring costs, users of this repo need to provide their own API keys. These API keys should be stored in a `.env` file in the root directory of the repo (i.e., `ebusopt/.env`). We use the `python-dotenv` package to read these in as environment variables where needed.
 
 The `.env` file should be formatted as follows with the following entries:
 
@@ -90,7 +90,7 @@ Install all dependencies:
 
 Launch the app:
 
-`streamlit run beb_chargers/zebra/🏠_Home.py`
+`streamlit run ebusopt/zebra/🏠_Home.py`
 
 The app will run on localhost (default port 8501) and you can open it with your web browser at `localhost:8501`.
 

@@ -67,4 +67,4 @@ with t1:
     c3.metric(label='CO2 savings (fast-charging blocks)', value=millify(lo_saved))
 
 with t2:
-    st.markdown(read_markdown('beb_chargers/zebra/text/emissions_help.md'))
+    st.markdown(read_markdown('ebusopt/zebra/text/emissions_help.md'))

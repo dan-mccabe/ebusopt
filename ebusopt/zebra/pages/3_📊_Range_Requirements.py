@@ -161,6 +161,6 @@ with t2:
         )
 
 with t3:
-    help_md = read_markdown('beb_chargers/zebra/text/range_requirements_help.md')
+    help_md = read_markdown('ebusopt/zebra/text/range_requirements_help.md')
     st.markdown(help_md)
 
